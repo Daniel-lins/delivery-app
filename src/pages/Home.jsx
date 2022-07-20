@@ -6,10 +6,32 @@ import heroImg from "../assets/images/hero.png";
 import "../styles/home.css";
 import "../styles/hero-section.css";
 
+import featureImg01 from "../assets/images/service-01.png";
+import featureImg02 from "../assets/images/service-02.png";
+import featureImg03 from "../assets/images/service-03.png";
+
 import { Link } from "react-router-dom";
 
 import Category from "../Componentes/UI/category/Category";
 
+const featureData = [
+  {
+    title: "Entrega rápida",
+    imgUrl: featureImg01,
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+
+  {
+    title: "Super Jantar",
+    imgUrl: featureImg02,
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+  {
+    title: "Easy Pick Up",
+    imgUrl: featureImg03,
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+];
 export const Home = () => {
   return (
     <Helmet title="Home">
@@ -68,6 +90,42 @@ export const Home = () => {
 
       <section className="pt-0">
         <Category />
+      </section>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h5 className="feature__subtitle mb-4">Nós servimos</h5>
+              <h2 className="feature__title">Apenas sente-se em casa</h2>
+              <h2 className="feature__title">
+                que <span>cuidaremos</span>
+              </h2>
+              <p className="mb-1 mt-4 feature__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                officiis?
+              </p>
+              <p className="feature__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, eius.{" "}
+              </p>
+            </Col>
+
+            {featureData.map((item, index) => (
+              <Col lg="4" md="6" sm="6" key={index} className="mt-5">
+                <div className="feature__item text-center px-5 py-3">
+                  <img
+                    src={item.imgUrl}
+                    alt="feature-img"
+                    className="w-25 mb-3"
+                  />
+                  <h5 className=" fw-bold mb-3">{item.title}</h5>
+                  <p>{item.desc}</p>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </section>
     </Helmet>
   );

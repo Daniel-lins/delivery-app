@@ -20,12 +20,12 @@ const categoryData = [
   },
 
   {
-    display: "Asian Food",
+    display: "Comida asiática",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Carnes",
     imgUrl: categoryImg04,
   },
 ];
