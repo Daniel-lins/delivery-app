@@ -20,9 +20,12 @@ import foodCategoryImg03 from "../assets/images/bread.png";
 
 import whyImg from "../assets/images/location.png";
 
+import networkImg from "../assets/images/network.png";
+
 import { Link } from "react-router-dom";
 
 import ProductCard from "../Componentes/UI/product-card/ProductCard";
+import TestimonialSlider from "../Componentes/UI/slider/TestimonialSlider";
 
 import Category from "../Componentes/UI/category/Category";
 
@@ -309,6 +312,32 @@ export const Home = () => {
                 <ProductCard item={item} />
               </Col>
             ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="6" md="6">
+              <div className="testimonial ">
+                <h5 className="testimonial__subtitle mb-4">Testemunhos</h5>
+                <h2 className="testimonial__title mb-4">
+                  O que nossos <span>clientes</span> estão dizendo
+                </h2>
+                <p className="testimonial__desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio quasi qui minus quos sit perspiciatis inventore
+                  quis provident placeat fugiat!
+                </p>
+
+                <TestimonialSlider />
+              </div>
+            </Col>
+
+            <Col lg="6" md="6">
+              <img src={networkImg} alt="testimonial-img" className="w-100" />
+            </Col>
           </Row>
         </Container>
       </section>
