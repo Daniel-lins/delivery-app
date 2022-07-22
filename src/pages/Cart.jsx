@@ -1,10 +1,10 @@
-import Helmet from "../Componentes/Helmet/Helmet";
+import Helmet from "../Components/Helmet/Helmet";
 
 import { useSelector, useDispatch } from "react-redux";
 
 import { Link } from "react-router-dom";
 
-import CommonSection from "../Componentes/UI/common-section/CommonSection";
+import CommonSection from "../Components/UI/common-section/CommonSection";
 
 import { cartActions } from "../store/shopping-cart/cartSlice";
 

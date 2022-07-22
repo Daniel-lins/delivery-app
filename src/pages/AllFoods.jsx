@@ -4,10 +4,10 @@ import { Container, Row, Col } from "reactstrap";
 
 import products from "../assets/fake-data/products";
 
-import ProductCard from "../Componentes/UI/product-card/ProductCard";
+import ProductCard from "../Components/UI/product-card/ProductCard";
 import ReactPaginate from "react-paginate";
 
-import Helmet from "../Componentes/Helmet/Helmet";
+import Helmet from "../Components/Helmet/Helmet";
 
 import "../styles/all-foods.css";
 import "../styles/pagination.css";

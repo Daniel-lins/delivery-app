@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import Helmet from "../Componentes/Helmet/Helmet";
+import Helmet from "../Components/Helmet/Helmet";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 
 import heroImg from "../assets/images/hero.png";
@@ -24,10 +24,10 @@ import networkImg from "../assets/images/network.png";
 
 import { Link } from "react-router-dom";
 
-import ProductCard from "../Componentes/UI/product-card/ProductCard";
-import TestimonialSlider from "../Componentes/UI/slider/TestimonialSlider";
+import ProductCard from "../Components/UI/product-card/ProductCard";
+import TestimonialSlider from "../Components/UI/slider/TestimonialSlider";
 
-import Category from "../Componentes/UI/category/Category";
+import Category from "../Components/UI/category/Category";
 
 const featureData = [
   {
