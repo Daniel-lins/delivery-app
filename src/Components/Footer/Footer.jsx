@@ -78,27 +78,20 @@ const Footer = () => {
               <p className="m-0">Follow: </p>
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/muhib160">
+                <Link to="https://www.facebook.com/daniel.lins.543/">
                   <i class="ri-facebook-line"></i>
                 </Link>{" "}
               </span>
 
               <span>
-                <Link to="https://github.com/muhib160">
+                <Link to="https://github.com/daniel-lins">
                   <i class="ri-github-line"></i>
                 </Link>
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
-                  <i class="ri-youtube-line"></i>
-                </Link>{" "}
-              </span>
-
-              <span>
-                {" "}
-                <Link to=" https://www.linkedin.com/in/muhib160/">
+                <Link to=" https://www.linkedin.com/in/daniel-lins-/">
                   <i class="ri-linkedin-line"></i>
                 </Link>{" "}
               </span>
