@@ -1,6 +1,5 @@
 import Helmet from "../Components/Helmet/Helmet";
 import CommonSection from "../Components/UI/common-section/CommonSection";
-import { Link } from "react-router-dom";
 
 import "../styles/contact.css";
 
@@ -10,7 +9,7 @@ export const Contact = () => {
       <CommonSection title="Contato" />{" "}
       <div class="contact-container">
         <h3 className="contact-title">
-          Entre em contato atraves des nossas redes sociais{" "}
+          Entre em contato atraves de nossas redes sociais{" "}
         </h3>
         <div className="social__links d-flex align-items-center gap-4 justify-content-end">
           <span>
