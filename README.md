@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Delivery App </h1>
+<p align="center">   Delivery App, 
+is a food ordering app
+<p> </p> 
+<p align="center" ><a  href="https://delivery-app-tau.vercel.app/" > Application running | click here </a>  </p>
+<p align="center">
+   <a href="https://www.linkedin.com/in/daniel-lins-/">
+      <img alt="DanielLins" src="https://img.shields.io/badge/-DanielLi-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Issues" src="https://img.shields.io/github/issues/daniel-lins/filmes-react?color=%235965E0">
+  <a href="Dlins300@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-dlins300%40gmail.com-%23525DCB" />
+  </a>
+</p>
 
-## Available Scripts
+# 📌 Contents
 
-In the project directory, you can run:
+* [Screenshots](#camera-screenshot)
+* [Technologies](#rocket-technologies)
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [License](#page_facing_up-license)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# :camera: Screenshots
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/71731815/180496108-f4629704-fcd0-4fb3-b342-3ca35bec05fc.jpg"  width="500px" />
+   <img src="https://user-images.githubusercontent.com/71731815/180496240-5e129f72-a657-44da-8bed-529bf06b0cc3.jpg" width="500px" />
+  <h2>Mobile </h2>
+  <img src="https://user-images.githubusercontent.com/71731815/180496319-6ca90661-3211-40f2-875f-7838c0bbe90b.jpg" width="400px" />
+  <img src="https://user-images.githubusercontent.com/71731815/180496545-d8b05cbf-651e-4866-a5fb-15599636317f.jpg" width="400px" />
+  
+ 
+  
+</div>
 
-### `yarn test`
+# :rocket: Technologies
+This project was made using the follow technologies:
+* [JavaScript](https://www.javascript.com/)      
+* [React](https://reactjs.org/)      
+* [BootsTrap](https://getbootstrap.com/)
+* [React Paginate](https://www.npmjs.com/package/react-paginate)
+* [Redux Toolkit](https://redux-toolkit.js.org/)
+* [react router dom](https://v5.reactrouter.com/web/guides/quick-start)
+* [remixicon](https://remixicon.com/)
+* [slick-carousel](https://yarnpkg.com/package/slick-carousel)
+* [Reactstrap](https://reactstrap.github.io/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :computer: How to run
 
-### `yarn build`
+```bash
+# Clone Repository
+$ git clone https://github.com/Daniel-lins/delivery-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Install Dependencies
+$ yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :bug: Issues
 
-### `yarn eject`
+Create a <a href="https://github.com/daniel-lins/delivery-app/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# :page_facing_up: License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is under the [MIT license](./LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you! 🌠
